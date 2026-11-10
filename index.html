@@ -4,371 +4,318 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>html5 basic page</title>
     <style>
-        h1 {
-            color:white;
-            background:black;
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: '맑은고딕', 'Malgun Gothic', 'githic', sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+
+        }
+
+        li {
+            list-style: none;
         }
     </style>
-</head>
-
-<body>
-    welcome의 홈페이지입니다.
-  <a href="file:///C:/Users/%EA%B3%A0%EC%84%B1%EB%B9%88/Desktop/html_class%20b/chapter3/1text_header.html">부분</a>
-
-  <a href="http://127.0.0.1:5500/10.10nesterlist.html"> 부분</a>
-
-  <a href="http://127.0.0.1:5500/11table.html"> 부분</a>
-  <!DOCTYPE html>
-<html lang="ko">
-
-<head>
-    <meta charset="UTF-8">
-
-
-    <title> </title>
-
-
-</head>
-
-<body>
-    <div>
-        <h1>html기본</h1>
-    </div>
-    <div>
-        <ul>
-            <nav>
-                <li><a href="#">메뉴-1</a></li>
-                <li><a href="#">메뉴-2</a></li>
-                <li><a href="#">메뉴-3</a></li>
-
-        </ul>
-        </nav>
-    </div>
-    <div>
-        <h1>lorem ipsum dolor sit amet</h1>
-        <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim
-            sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius
-            a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non
-            fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a,
-            enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue.
-            Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales.
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris
-            ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
-    </div>
-    <div>
-        <h1>lorem ipsum dolor sit amet</h1>
-        <p>lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
-    </div>
-    </div>
-    <div>
-       
-    </div>
-</body>
-
-</html>
-  <!DOCTYPE html>
-<html lang="ko">
-
-<head>
-    <meta charset="UTF-8">
-
-
-    <title> </title>
-
-
-</head>
-
-<body>
-    <header>
-        <h1>html기본</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">메뉴-1</a></li>
-            <li><a href="#">메뉴-2</a></li>
-            <li><a href="#">메뉴-3</a></li>
-        </ul>
-    </nav>
-    <section>
-        <article>
-            <h1>lorem ipsum dolor sit amet</h1>
-            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor,
-                dignissim
-                sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa,
-                varius
-                a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non
-                fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in,
-                pretium a,
-                enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue.
-                Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit
-                sodales.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh.
-                Mauris
-                ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
-        </article>
-        <article>
-
-            <h1>lorem ipsum dolor sit amet</h1>
-            <p>lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
-        </article>
-    </section>
-    <footer>
-        <address>서울 특별시 강서구 내발산동 </address>
-    </footer>
-</body>
-
-</html>
-  <!DOCTYPE html>
-<html lang="ko">
-
-<head>
-    <meta charset="UTF-8">
-
-
-    <title>css3 Selector Basic</title>
     <style>
-        /* *{color: red;}*/
-        /*h1  { color: orange;}*/
-        p {
-            color: brown;
+        .pull-left {
+            float: left;
         }
 
-        #header {
-            width: 800px;
-            margin: 0 auto;
-            background: red;
+        .pull-right {
+            float: right;
+        }
+    </style>
+    <style>
+        #main-header {
+            background-color: #f5f5f5;
+            margin: 40px 0;
+            padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+
+        }
+    </style>
+    <style>
+        #main-header {
+            padding: 40px 50px;
         }
 
-        #wrap {
-            width: 800px;
-            margin: 0 auto;
+        .master-tittle {
+            font-size: 30px;
+            color: #181818;
+        }
+
+        .master-description {
+            font-size: 15px;
+            font-weight: 500;
+            color: #383838;
+        }
+    </style>
+    <style>
+        main-navigation {
+            border-top: 1px solid #cbcbcb;
+            border-bottom: 1px solid #cbcbcb;
+            margin-bottom: 20px;
+            height: 40px;
+
+        }
+
+        .other-menu-item {
+            float: left;
+            position: relative;
+        }
+
+        .other-menu-item:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .menu-title {
+            display: block;
+            color: white;
+        }
+
+        .menu-title {
+            display: block;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            padding: 5px 20px;
+        }
+
+        .inner-menu {
+            display: none;
+            position: absolute;
+            top: 40px;
+            left: 0;
+            width: 100%;
+            background: white;
+            box-shadow: 0 2px 6px rgba(5, 5, 5, 0.9);
+            z-index: 1000;
+            text-align: center;
+        }
+
+        .inner-menu-item>a {
+            display: block;
+            padding: 5px 10px;
+            color: black;
+
+        }
+
+        .inner-menu-item:hover {
+            background: black;
+            color: white;
+        }
+    </style>
+    <style>
+        .search-bar {
+            height: 20px;
+            padding: 7px;
+
+        }
+
+        .input-search {
+            display: black;
+            float: left;
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            border-radius: 15px 0 0 15px;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.5);
+
+        }
+
+        .input-search:submit {
+            display: block;
+            width: 50px;
+            height: 26px;
+            border-radius: 0 15px 15px 0;
+            border: 1px solid #cccccc;
+            margin-left: -1px;
+            display: inline-block;
+        }
+    </style>
+    <style>
+        #content {
             overflow: hidden;
         }
 
-        #aside {
+        #main-section {
+            float: left;
+            width: 710px;
+        }
+
+        #main-aside {
+            float: right;
             width: 200px;
-            float: left;
-            background: blue;
+        }
+    </style>
+    <style>
+        article {
+            padding: 0 10px 20px 10px;
+            border-bottom: 1px solid #cbcbcb;
+
         }
 
-        #content {
-            width: 600px;
-            float: left;
-            background: green;
+        article-header {
+            padding: 20px 0;
         }
 
-        #rint {
-            color: purple;
+        .article-title {
+            font-size: 25px;
+            font-weight: 500;
+            padding-bottom: 10px;
         }
 
-        .select {
-            color: violet;
+        .article-date {
+            font-size: 13px;
+
         }
 
-        .item {
-            color: red;
+        .article-body {
+            font-size: 14px;
+        }
+    </style>
+    <style>
+        .aside-list {
+            font-size: 15px;
+            font-weight: 600;
+
         }
 
-        .header {
-            background-color: blue;
+        .aside-list li a {
+            margin-left: 8px;
         }
 
-        li.select {
-            color: blueviolet;
+        .aside-list li a {
+            margin-left: 8px;
+            font-size: 13px;
+            color: #6c6c6c;
         }
     </style>
 
 </head>
 
 <body>
-    <h2>1.전체 선택자</h2>
-    <h2>2.태그선택자</h2>
-    <h2>3.아이디선택자</h2>
-    <h2 class="item header">4.클래스선택자</h2>
-    <hr>
-    <ul>
-        <li class="select">사과 </li>
-        <li>바나나 </li>
-        <li>오렌지 </li> 1
-        <li class="select">감 </li>
-    </ul>
+    <div id="page-wrapper">
+        <header id="main-header">
+            <hgroup>
+                <h1 class="html example preview">html5 basic</h1>
+                <h2 class="master-description">한빛아카데미</h2>
+            </hgroup>
+        </header>
+        <nav id="main-navigation">
+            <div class="pull-left">
+                <ul class="outer-menu">
+                    <li class="other-menu-item">
+                        <span class="menu-title">HTML5</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
 
 
+                        </ul>
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="menu-title">CSS3</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                        </ul>
 
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="menu-title">javascript</span>
+                        <ul class="inner-menu">
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                            <li class="inner-menu-item"><a href="#">데이터</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="pull-right">
+                <div class="search-bar">
+                    <input type="text" class="input-search">
+                    <input type="submit" class="input-search-submit" value="검색">
+                    </form>
+                </div>
+            </div>
 
-    <h1> 제목글자</h1>
-    <p>lorem ipsum dolor sit amet </p>
-    <p> consectetur adipiscing elit.</p>
-
-    <hr>
-    <div id="header">
-        <h1>#header태그</h1>
-    </div>
-    <div id="wrap">
-        <div id="aside">
-            <h1>#aside태그</h1>
-        </div>
+        </nav>
         <div id="content">
-            <h1>#content태그</h1>
+            <section id="main-section">
+                <article>
+                    <header class="article-header">
+                        <h1 class="article-title">HTML5 개요와활용</h1>
+                        <p class="article-date">2023 05 22 </p>
         </div>
-    </div>
-
-
-</body>
-
-</html>
-  <!DOCTYPE html>
-<html lang="ko">
-
-<head>
-    <meta charset="UTF-8">
-
-
-    <title> 9.attribute 선택자</title>
-
-    <style>
-        input[type="text"] {
-            background-color: yellow;
-        }
-
-        input[type="password"] {
-            background-color: pink;
-        }
-    </style>
-
-</head>
-
-<body>
-    <h2>속성 선택자</h2>
-    <hr>
-    <from>
-        <input type="text">
-        <input type="password">
-    </from>
-
-
-
-</body>
-
-</html> 
-  <!DOCTYPE html>
-<html lang="ko">
-
-<head>
-    <meta charset="UTF-8">
-
-
-    <title>11.dedsc+_descendants</title>
-    <style>
-        /* #header> h1.title {
-            color: red;
-        }
-
-        #section> h1 {
-            color: green;
-        }
-        #header h1,h2{
-            color: blue;
-        }*/
-        #header h1,
-        #header h2 {
-            color: red;
-        }
-
-        table>tr>td {
-            color: blue;
-        }
-    </style>
-</head>
-
-<body>
-
-    <h2>후손 선택자</h2>
-    <h2>자손 선택자</h2>
-    <hr> 주의! table 태그에 스타일 적용시 자손선택자 사용 x
-    <table border="1">
-        <tr>
-            <td>이름</td>
-            <td>지역</td>
-        </tr>
-        <tr>
-            <td>고성빈</td>
-            <td>서울시 마포구 신수동</td>
-        </tr>
-    </table>
-
-
-
-    <div id="header">
-        <h1 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorum et doloremque dolor,
-            quisquam dicta rerum vitae adipisci sit at aliquid. Velit, itaque voluptatem! Fugiat architecto dignissimos
-            veniam autem quas!</h1>
-        <h2>section</h2>
-        <div id="nav">
-            <h1>nagavigation</h1>
-            <h2>"hearder </h2>
+        <div class="article-body">
+            <img src="https://via.placeholder.com/430x280">
+            <br>
+            <br>
+            <p> lorem ipsum dolor sit amet</p>
+            <br>
+            <p> proin ut fringilla sapien</p>
         </div>
+        </article>
+        <article>
+            <div class="article-header">
+                <h1 class="article-title">HTML5 응용과실습</h1>
+                <p class="article-date">2023 05 24 </p>
+            </div>
+            <div class="article-body">
+                <img src="https://via.placeholder.com/430x280">
+                <br>
+                <p> lorem ipsum dolor sit amet</p>
+                <br>
+                <p> proin ut fringilla sapien</p>
+            </div>
+        </article>
+        <aside id="main-aside">
+            <ul class="aside-list">
+                <li><a href="#">HTML5 데이터</a></li>
+                <li><a href="#">HTML5 데이터</a></li>
+                <li><a href="#">HTML5 데이터</a></li>
+                <li><a href="#">HTML5 데이터</a></li>
+                <li><a href="#">HTML5 데이터</a></li>
+            </ul>
     </div>
-    <div id="section">
-        <h1>section</h1>
-        <p>This is a paragraph inside the section.</p>
+    <div class="aside-list">
+        <h3 최근 글 </h3>
+            <ul>
+                <li><a href="#">HTML5 데이터</a></li>
+                <li><a href="#">HTML5 데이터</a></li>
+                <li><a href="#">HTML5 데이터</a></li>
+                <li><a href="#">HTML5 데이터</a></li>
+
+            </ul>
     </div>
-
-
+    <div class="aside-list">
+        <h3>최근 댓글</h3>
+        <ul>
+            <li><a href="#">HTML5 데이터</a></li>
+            <li><a href="#">HTML5 데이터</a></li>
+            <li><a href="#">HTML5 데이터</a></li>
+            <li><a href="#">HTML5 데이터</a></li>
+        </ul>
+    </div>
+    </aside>
+    </div>
+    <footer id="main-footer">
+        <a href="#">itcookbook html5 programming</a>
+    </footer>
+    </div>
 </body>
 
-</html>
-  <!DOCTYPE html>
-<html lang="ko">
-
-<head>
-    <meta charset="UTF-8">
-
-
-    <title>반응 /상태 /구조 선택자 </title>
-    <style>
-        h1:hover {
-            color: red;
-        }
-
-        h1:active {
-            color:
-                blue;
-        }
-
-        /* input태그가 사용 가능할떄 background-color 속성에 wheat색을 적용
-        input:enabled {
-            background-color: wheat;
-        }
-         /* input태그가  불가일때는 gray색을 적용
-
-        input:disabled {
-            background-color: gray;
-        }
-         /* input태그가 포커스 되었을때는 orange색을 적용*/
-
-        input:focus {
-            background-color: orange;
-        }
-    </style>
-
-</head>
-
-<body>
-    <h1>반응 선택자</h1>
-    <h1>상태 선택자</h1>
-    <h1>구조 선택자</h1>
-    <h2> 사용가능 </h2>
-    <input>
-    <h2>사용불가</h2>
-    <input disabled="disabled">
-
-
-
-</body>
-
-</html>
-</body>
 </html>
